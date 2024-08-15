@@ -55,7 +55,6 @@ const textH2 = document.createTextNode("Wubba Lubba dub dub");
 h2.appendChild(textH2);
 // h2.textContent = "Wubba Lubba dub dub" ---> más directo
 
-
 // 2.6 
 
 const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter'];
