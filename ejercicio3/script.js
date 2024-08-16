@@ -92,10 +92,10 @@ document.body.appendChild(button);
 
 function removeLastDiv() {
     const divs = document.querySelectorAll("div");
-    if (divs.length > 0) {
+    // if (divs.length > 0) {
         const lastDiv = divs[divs.length - 1];
         lastDiv.remove();
-    }
+    //} ---> no es necesario
 }
 
 button.addEventListener("click", removeLastDiv);
