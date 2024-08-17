@@ -112,4 +112,4 @@ const divs = document.querySelectorAll("div");
         anotherButton.addEventListener("click", () => {
             divs[i].remove();
         });
-    }
+    };
